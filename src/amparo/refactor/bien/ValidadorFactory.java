@@ -12,7 +12,7 @@ class ValidadorFactory
 		if (isNie(doc)){
 			miValidador=new ValidadorNIE(doc);
 		}else if (isDni(doc)){
-			miValidador = new ValidadorDNI2(doc);
+			miValidador = new ValidadorDNI(doc);
 		}
 		 return miValidador;
 	}

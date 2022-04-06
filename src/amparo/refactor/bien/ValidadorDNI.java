@@ -1,6 +1,6 @@
 package amparo.refactor.bien;
 
-public class ValidadorDNI2 implements IValidadorDocumento {
+public class ValidadorDNI implements IValidadorDocumento {
 
 	private String dni = null;
 
